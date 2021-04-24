@@ -1,6 +1,7 @@
 @extends('layout')
 
 @section('content')
+
     <div class="body">
 
         <header id="header" class="header-effect-shrink"
@@ -214,12 +215,13 @@
 
                 <div class="row">
                     <div class="col">
+                        <iframe name="contact" width="100%" height="12%" style="border:0;"></iframe>
                         <h3 class="text-color-quaternary font-weight-bolder text-capitalize mb-2">Envoyer nous un
                             message</h3>
-                        <p></p>
-                        <form class="contact-form custom-form-style-1 appear-animation" data-appear-animation="fadeIn"
-                            data-appear-animation-delay="100" action="php/email-script.php" method="POST">
-                            <div class="contact-form-success alert alert-success d-none mt-4">
+                        <form id="form-contact" class="contact-form custom-form-style-1 appear-animation"
+                            data-appear-animation="fadeIn" data-appear-animation-delay="100" action="php/email-script.php"
+                            method="POST" target="contact">
+                            <div id="form-success" class="contact-form-success alert alert-success d-none mt-4">
                                 <strong>Succès!</strong> Votre message a été envoyé avec succès.
                             </div>
 
@@ -334,7 +336,7 @@
                                         Pédodontie
                                     </li>
                                     <!-- </ul>
-             <ul class="pl-4"> -->
+                                 <ul class="pl-4"> -->
                                     <li class="nav-foot">
                                         Endodontie
                                     </li>

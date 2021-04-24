@@ -69,11 +69,41 @@ try {
 
     $mailer->send();
     $mailer->clearAllRecipients();
-    echo "Email envoye avec succes";
 } catch (Exception $e) {
-    echo "Email envoye ereur" . $mailer->ErrorInfo;
+    echo "Email envoye ereur " . $mailer->ErrorInfo;
 }
 ?>
-<script>
-    window.location.href = "http://127.0.0.1:8005/contact";
-</script>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .alert {
+            padding: 20px;
+            background-color: #d4edda;
+            color: #155724;
+            opacity: 1;
+            transition: opacity 0.6s;
+            margin-bottom: 15px;
+            font-family: "Poppins", sans-serif;
+            border-color: #c3e6cb;
+            margin-left: -8px;
+            margin-right: -8px;
+        }
+
+        .alert.success {
+            background-color: #d4edda;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="alert success">
+        <strong>Succès!</strong> Votre message a été envoyé avec succès.
+    </div>
+</body>
+
+</html>

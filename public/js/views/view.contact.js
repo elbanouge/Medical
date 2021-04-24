@@ -10,29 +10,9 @@ Theme Version:	8.3.0
 	Contact Form: Basic
 	*/
 
-	$('.contact-form').validate();
+	$(".contact-form").validate(function () {
+		$(".contact-form").submit(function (e) {
+		});
+	});
 
 }).apply(this, [jQuery]);
-
-// $(document).ready(function () {
-// 	$('.contact-form').submit(function (e) {
-// 		e.preventDefault();
-// 		$.ajax({
-// 			type: "POST",
-// 			url: 'email-script.php',
-// 			data: $(this).serialize(),
-// 			success: function (response) {
-// 				var jsonData = JSON.parse(response);
-
-// 				// user is logged in successfully in the back-end
-// 				// let's redirect
-// 				if (jsonData.success == "1") {
-// 					location.href = 'contact';
-// 				}
-// 				else {
-// 					alert('Invalid Credentials!');
-// 				}
-// 			}
-// 		});
-// 	});
-// });
