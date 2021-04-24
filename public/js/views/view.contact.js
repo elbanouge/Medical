@@ -11,8 +11,5 @@ Theme Version:	8.3.0
 	*/
 
 	$(".contact-form").validate(function () {
-		$(".contact-form").submit(function (e) {
-		});
 	});
-
 }).apply(this, [jQuery]);

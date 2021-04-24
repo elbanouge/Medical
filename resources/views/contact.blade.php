@@ -259,9 +259,8 @@
                             </div>
                             <div class="form-row">
                                 <div class="form-group col">
-                                    <input type="submit" value="Envoyer le message" name="sendMailBtn"
-                                        class="btn btn-primary px-4 py-3 text-center text-uppercase font-weight-semibold"
-                                        data-loading-text="Chargement...">
+                                    <input type="submit" value="Envoyer le message" name="sendMailBtn" id="form-submit"
+                                        class="btn btn-primary px-4 py-3 text-center text-uppercase font-weight-semibold">
                                 </div>
                             </div>
                         </form>
@@ -336,7 +335,7 @@
                                         Pédodontie
                                     </li>
                                     <!-- </ul>
-                                 <ul class="pl-4"> -->
+                                     <ul class="pl-4"> -->
                                     <li class="nav-foot">
                                         Endodontie
                                     </li>
