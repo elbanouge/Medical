@@ -91,55 +91,8 @@ function myFunction(more) {
       moreText.style.display = "none";
     }
   }
-  // if (dots.style.display === "none") {
-
-  //   dots.style.display = "inline";
-  //   btnText.innerHTML = "Lire la suite +"; 
-  //   moreText.style.display = "none";
-
-  //       dots.style.display = "none";
-  //   btnText.innerHTML = "Lire Moins -"; 
-  //   moreText.style.display = "inline";
-
-  //       dots.style.display = "none";
-  //   btnText.innerHTML = "Lire Moins -"; 
-  //   moreText.style.display = "inline";
-
-  // }
-  //  else {
-  //   dots.style.display = "none";
-  //   btnText.innerHTML = "Lire Moins -"; 
-  //   moreText.style.display = "inline";
-  // }
 }
 
-
-// var i = 0;
-// var j = 0;
-// function typeWriter() {
-//   var txt = "Urgent Care + Multi-Specialty Medical Clinic Group";
-//   var descr = "RELIABLE MEDICAL SERVICES LOCATED IN LOS ANGELES, CA";
-//   if (i < txt.length) {
-//     document.getElementById("textAcc").innerHTML += txt.charAt(i);
-//     if (i == txt.length) {
-
-//       i = 0;
-//       document.getElementById("textAcc").innerHTML = "";
-//     }
-//     i++;
-//   }
-//   if (j < descr.length) {
-//     document.getElementById("textDescr").innerHTML += descr.charAt(j);
-
-//     if (j == descr.length) {
-
-//       j = 0;
-//       document.getElementById("textDescr").innerHTML = "";
-//     }
-//     j++;
-//     setTimeout(typeWriter, 80);
-//   }
-// }
 
 var i = 0;
 var j = 0;

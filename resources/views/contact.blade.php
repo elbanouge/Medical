@@ -221,9 +221,9 @@
                         <form id="form-contact" class="contact-form custom-form-style-1 appear-animation"
                             data-appear-animation="fadeIn" data-appear-animation-delay="100" action="php/email-script.php"
                             method="POST" target="contact">
-                            <div id="form-success" class="contact-form-success alert alert-success d-none mt-4">
+                            <!-- <div id="form-success" class="contact-form-success alert alert-success d-none mt-4">
                                 <strong>Succès!</strong> Votre message a été envoyé avec succès.
-                            </div>
+                            </div> -->
 
                             <div class="contact-form-error alert alert-danger d-none mt-4">
                                 <strong>Erreur!</strong> Nous avons rencontré une erreur lors de l'envoi de votre
@@ -259,7 +259,7 @@
                             </div>
                             <div class="form-row">
                                 <div class="form-group col">
-                                    <input type="submit" value="Envoyer le message" name="sendMailBtn"
+                                    <input type="submit" h value="Envoyer le message" name="sendMailBtn"
                                         class="btn btn-primary px-4 py-3 text-center text-uppercase font-weight-semibold"
                                         data-loading-text="Chargement...">
                                 </div>

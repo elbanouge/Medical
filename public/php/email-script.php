@@ -98,10 +98,24 @@ try {
             background-color: #d4edda;
         }
     </style>
+    <script>
+        var cnt = 0;
+
+        function hide_message() {
+            if (cnt == 0) {
+                location.href = "#meg";
+            }
+            if (cnt == 6) {
+                document.getElementById("meg").outerHTML = "";
+            }
+            cnt++;
+            setTimeout(hide_message,2000);
+        }
+    </script>
 </head>
 
-<body>
-    <div class="alert success">
+<body onload="hide_message()">
+    <div class="alert success" id="meg">
         <strong>Succès!</strong> Votre message a été envoyé avec succès.
     </div>
 </body>
