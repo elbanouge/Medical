@@ -240,7 +240,7 @@
                                     <input type="email" placeholder="Votre E-mail" value=""
                                         data-msg-required="S'il vous plaît entrez votre addresse."
                                         data-msg-email="S'il vous plaît, mettez une adresse email valide." maxlength="100"
-                                        class="form-control" name="email" required>
+                                        class="form-control" name="email" id="ema" required>
                                 </div>
                             </div>
                             <div class="form-row">
@@ -252,7 +252,7 @@
                             </div>
                             <div class="form-row">
                                 <div class="form-group col">
-                                    <textarea placeholder="Votre Message..." maxlength="5000"
+                                    <textarea id="mes" placeholder="Votre Message..." maxlength="5000"
                                         data-msg-required="S'il vous plaît entrez votre message." rows="10"
                                         class="form-control" name="message" required></textarea>
                                 </div>

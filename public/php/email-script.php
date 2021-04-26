@@ -27,7 +27,7 @@ try {
     $mailer->Host = 'smtp.gmail.com';
     $mailer->SMTPAuth = true;
     $mailer->Username = 'abde.banouge1@gmail.com';
-    $mailer->Password = 'Abde24*-';
+   $mailer->Password = 'Abde24*-';
     $mailer->SMTPSecure = 'tls';
     $mailer->Port = 587;
 
@@ -99,7 +99,6 @@ try {
             var cnt = 0;
 
             function hide_message() {
-		window.location.href="#te";
 
                 if (cnt == 6) {
                     document.getElementById("meg").outerHTML = "";
@@ -132,18 +131,18 @@ try {
             .alert {
                 padding: 20px;
                 background-color: #f44336;
-                color: #155724;
+                color: #731D25;
                 opacity: 1;
                 transition: opacity 0.6s;
                 margin-bottom: 15px;
                 font-family: "Poppins", sans-serif;
-                border-color: #f44336;
+                border-color: #F5C6CB;
                 margin-left: -8px;
                 margin-right: -8px;
             }
 
             .alert.warning {
-                background-color: #f44336;
+                background-color: #F8D7DA;
             }
         </style>
 

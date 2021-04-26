@@ -70,6 +70,7 @@ html .text-hover-tertiary:hover {
 html .text-color-quaternary,
 html .text-quaternary {
 	color: #222529 !important;
+	margin-bottom: 4% !important;
 }
 
 html .text-color-hover-quaternary:hover,
