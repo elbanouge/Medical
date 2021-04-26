@@ -78,28 +78,28 @@
                                         <nav class="collapse">
                                             <ul class="nav nav-pills" id="mainNav">
                                                 <li class="dropdown-secondary">
-                                                    <a class="nav-link active" href="{{ url('/') }}">
+                                                    <a id="acc" class="nav-link active" href="{{ url('/') }}" onclick="click_('acc')">
                                                         Accueil
                                                     </a>
                                                 </li>
                                                 <li class="dropdown-secondary">
-                                                    <a class="nav-link" href="{{ ('/#specialite') }} ">
+                                                    <a id="spe" class="nav-link" href="{{ ('/#specialite') }}" onclick="click_('spe')">
                                                         Spécialités
                                                     </a>
                                                 </li>
-                                                <li class="dropdown-secondary">
-                                                    <a class="nav-link" href="{{ ('/#service') }}">
+                                                <li  class="dropdown-secondary">
+                                                    <a id="ser" class="nav-link" href="{{ ('/#service') }}" onclick="click_('ser')">
                                                         Service Médical
                                                     </a>
                                                 </li>
                                                 <li class="dropdown-secondary">
-                                                    <a class="nav-link" href="{{ ('/#about-us') }}">
+                                                    <a id="apr" class="nav-link" href="{{ ('/#about-us') }}" onclick="click_('apr')">
                                                         A propos
                                                     </a>
                                                 </li>
 
                                                 <li class="dropdown-secondary">
-                                                    <a class="nav-link" href="{{ ('/contact') }}">
+                                                    <a id="con" class="nav-link" href="{{ ('/contact') }}" onclick="click_('con')">
                                                         Contact
                                                     </a>
                                                 </li>
