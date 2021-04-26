@@ -9,10 +9,10 @@ Theme Version:	8.3.0
 	/*
 	Contact Form: Basic
 	*/
-
-	$(".contact-form").validate(function () {
-		$(".contact-form").submit(function (e) {
-		});
+	$("#form-submit").click(function () {
+		window.location.href="contact#te";
 	});
 
+	$(".contact-form").validate(function () {
+	});
 }).apply(this, [jQuery]);
