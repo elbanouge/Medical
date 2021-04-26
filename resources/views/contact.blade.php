@@ -79,29 +79,29 @@
                                         <nav class="collapse">
                                             <ul class="nav nav-pills" id="mainNav">
                                                 <li class="dropdown-secondary">
-                                                    <a class="nav-link" href="demo-medical-2.html">
+                                                    <a class="nav-link" href="{{ url('/') }}">
                                                         Accueil
                                                     </a>
                                                 </li>
                                                 <li class="dropdown-secondary">
-                                                    <a class="nav-link" href="#specialite">
+                                                    <a class="nav-link" href="{{ ('/#specialite') }} ">
                                                         Spécialités
                                                     </a>
                                                 </li>
                                                 <li class="dropdown-secondary">
-                                                    <a class="nav-link" href="#service">
+                                                    <a class="nav-link" href="{{ ('/#service') }} ">
                                                         Service Médical
                                                     </a>
                                                 </li>
                                                 <li class="dropdown-secondary">
                                                     <a class="nav-link"
-                                                        href="file:///C:/Users/Abdellah/Desktop/Medical/demo-medical-2.html#about-us">
+                                                        href="{{ ('/#about-us') }}">
                                                         A propos
                                                     </a>
                                                 </li>
 
                                                 <li class="dropdown-secondary">
-                                                    <a class="nav-link active" href="demo-medical-2-contact-us.html">
+                                                    <a class="nav-link active" href="{{ ('/contact') }}">
                                                         Contact
                                                     </a>
                                                 </li>

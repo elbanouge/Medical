@@ -64,7 +64,7 @@
                         <div class="header-column header-column-logo">
                             <div class="header-row">
                                 <div class="header-logo">
-                                    <a href="demo-medical-2.html">
+                                    <a href="{{ ('/') }}">
                                         <img alt="Porto" width="180" height="60" src="img/logos/Logo.png">
                                     </a>
                                 </div>
@@ -78,28 +78,28 @@
                                         <nav class="collapse">
                                             <ul class="nav nav-pills" id="mainNav">
                                                 <li class="dropdown-secondary">
-                                                    <a class="nav-link active" href="demo-medical-2.html">
+                                                    <a class="nav-link active" href="{{ url('/') }}">
                                                         Accueil
                                                     </a>
                                                 </li>
                                                 <li class="dropdown-secondary">
-                                                    <a class="nav-link" href="#specialite">
+                                                    <a class="nav-link" href="{{ ('/#specialite') }} ">
                                                         Spécialités
                                                     </a>
                                                 </li>
                                                 <li class="dropdown-secondary">
-                                                    <a class="nav-link" href="#service">
+                                                    <a class="nav-link" href="{{ ('/#service') }}">
                                                         Service Médical
                                                     </a>
                                                 </li>
                                                 <li class="dropdown-secondary">
-                                                    <a class="nav-link" href="#about-us">
+                                                    <a class="nav-link" href="{{ ('/#about-us') }}">
                                                         A propos
                                                     </a>
                                                 </li>
 
                                                 <li class="dropdown-secondary">
-                                                    <a class="nav-link" href="contact">
+                                                    <a class="nav-link" href="{{ ('/contact') }}">
                                                         Contact
                                                     </a>
                                                 </li>
